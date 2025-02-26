@@ -4,6 +4,9 @@ import discord
 from discord.ext import commands, tasks
 import pandas as pd
 from datetime import datetime, timedelta
+import sys
+
+print("Python Version:", sys.version)
 
 # Intents
 intents = discord.Intents.default()
